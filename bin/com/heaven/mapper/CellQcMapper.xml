@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.heaven.dao.CellQcMapper" >
+  <resultMap id="BaseResultMap" type="com.heaven.model.CellQc" >
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="ROWSNUM" property="rowsnum" jdbcType="DECIMAL" />
+    <result column="COLSNUM" property="colsnum" jdbcType="DECIMAL" />
+    <result column="TEXT" property="text" jdbcType="VARCHAR" />
+    <result column="FIXCAPTION" property="fixcaption" jdbcType="VARCHAR" />
+    <result column="EXPZZ" property="expzz" jdbcType="VARCHAR" />
+    <result column="DISPLAYEXP" property="displayexp" jdbcType="VARCHAR" />
+    <result column="CONDITION" property="condition" jdbcType="VARCHAR" />
+    <result column="FILTERZZ" property="filterzz" jdbcType="VARCHAR" />
+    <result column="URL" property="url" jdbcType="VARCHAR" />
+    <result column="DETAILNAME" property="detailname" jdbcType="VARCHAR" />
+    <result column="REPORT_NAME" property="reportName" jdbcType="VARCHAR" />
+    <result column="REPORT_ALIAS" property="reportAlias" jdbcType="VARCHAR" />
+    <result column="REPORT_CAPTION" property="reportCaption" jdbcType="VARCHAR" />
+    <result column="REPORT_ID" property="reportId" jdbcType="VARCHAR" />
+    <result column="REPORT_TASKID" property="reportTaskid" jdbcType="VARCHAR" />
+    <result column="REPORT_TYPE" property="reportType" jdbcType="VARCHAR" />
+    <result column="QC_NAME" property="qcName" jdbcType="VARCHAR" />
+    <result column="QC_LIST" property="qcList" jdbcType="VARCHAR" />
+    <result column="IS_ZQ" property="isZq" jdbcType="CHAR" />
+    <result column="RELATIVE_TABLE" property="relativeTable" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    ID, ROWSNUM, COLSNUM, TEXT, FIXCAPTION, EXPZZ, DISPLAYEXP, CONDITION, FILTERZZ, URL, 
+    DETAILNAME, REPORT_NAME, REPORT_ALIAS, REPORT_CAPTION, REPORT_ID, REPORT_TASKID, 
+    REPORT_TYPE, QC_NAME, QC_LIST, IS_ZQ, RELATIVE_TABLE
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from CELL_QC
+    where ID = #{id,jdbcType=DECIMAL}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select 
+    <include refid="Base_Column_List" />
+    from CELL_QC
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from CELL_QC
+    where ID = #{id,jdbcType=DECIMAL}
+  </delete>
+  <insert id="insert" parameterType="com.heaven.model.CellQc" >
+    insert into CELL_QC (ID, ROWSNUM, COLSNUM, 
+      TEXT, FIXCAPTION, EXPZZ, 
+      DISPLAYEXP, CONDITION, FILTERZZ, 
+      URL, DETAILNAME, REPORT_NAME, 
+      REPORT_ALIAS, REPORT_CAPTION, REPORT_ID, 
+      REPORT_TASKID, REPORT_TYPE, QC_NAME, 
+      QC_LIST, IS_ZQ, RELATIVE_TABLE
+      )
+    values (MYBATIS_COMMON_SEQUENCES.nextval, #{rowsnum,jdbcType=DECIMAL}, #{colsnum,jdbcType=DECIMAL}, 
+      #{text,jdbcType=VARCHAR}, #{fixcaption,jdbcType=VARCHAR}, #{expzz,jdbcType=VARCHAR}, 
+      #{displayexp,jdbcType=VARCHAR}, #{condition,jdbcType=VARCHAR}, #{filterzz,jdbcType=VARCHAR}, 
+      #{url,jdbcType=VARCHAR}, #{detailname,jdbcType=VARCHAR}, #{reportName,jdbcType=VARCHAR}, 
+      #{reportAlias,jdbcType=VARCHAR}, #{reportCaption,jdbcType=VARCHAR}, #{reportId,jdbcType=VARCHAR}, 
+      #{reportTaskid,jdbcType=VARCHAR}, #{reportType,jdbcType=VARCHAR}, #{qcName,jdbcType=VARCHAR}, 
+      #{qcList,jdbcType=VARCHAR}, #{isZq,jdbcType=CHAR}, #{relativeTable,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.heaven.model.CellQc" >
+    insert into CELL_QC
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="rowsnum != null" >
+        ROWSNUM,
+      </if>
+      <if test="colsnum != null" >
+        COLSNUM,
+      </if>
+      <if test="text != null" >
+        TEXT,
+      </if>
+      <if test="fixcaption != null" >
+        FIXCAPTION,
+      </if>
+      <if test="expzz != null" >
+        EXPZZ,
+      </if>
+      <if test="displayexp != null" >
+        DISPLAYEXP,
+      </if>
+      <if test="condition != null" >
+        CONDITION,
+      </if>
+      <if test="filterzz != null" >
+        FILTERZZ,
+      </if>
+      <if test="url != null" >
+        URL,
+      </if>
+      <if test="detailname != null" >
+        DETAILNAME,
+      </if>
+      <if test="reportName != null" >
+        REPORT_NAME,
+      </if>
+      <if test="reportAlias != null" >
+        REPORT_ALIAS,
+      </if>
+      <if test="reportCaption != null" >
+        REPORT_CAPTION,
+      </if>
+      <if test="reportId != null" >
+        REPORT_ID,
+      </if>
+      <if test="reportTaskid != null" >
+        REPORT_TASKID,
+      </if>
+      <if test="reportType != null" >
+        REPORT_TYPE,
+      </if>
+      <if test="qcName != null" >
+        QC_NAME,
+      </if>
+      <if test="qcList != null" >
+        QC_LIST,
+      </if>
+      <if test="isZq != null" >
+        IS_ZQ,
+      </if>
+      <if test="relativeTable != null" >
+        RELATIVE_TABLE,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        MYBATIS_COMMON_SEQUENCES.nextval,
+      </if>
+      <if test="rowsnum != null" >
+        #{rowsnum,jdbcType=DECIMAL},
+      </if>
+      <if test="colsnum != null" >
+        #{colsnum,jdbcType=DECIMAL},
+      </if>
+      <if test="text != null" >
+        #{text,jdbcType=VARCHAR},
+      </if>
+      <if test="fixcaption != null" >
+        #{fixcaption,jdbcType=VARCHAR},
+      </if>
+      <if test="expzz != null" >
+        #{expzz,jdbcType=VARCHAR},
+      </if>
+      <if test="displayexp != null" >
+        #{displayexp,jdbcType=VARCHAR},
+      </if>
+      <if test="condition != null" >
+        #{condition,jdbcType=VARCHAR},
+      </if>
+      <if test="filterzz != null" >
+        #{filterzz,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null" >
+        #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="detailname != null" >
+        #{detailname,jdbcType=VARCHAR},
+      </if>
+      <if test="reportName != null" >
+        #{reportName,jdbcType=VARCHAR},
+      </if>
+      <if test="reportAlias != null" >
+        #{reportAlias,jdbcType=VARCHAR},
+      </if>
+      <if test="reportCaption != null" >
+        #{reportCaption,jdbcType=VARCHAR},
+      </if>
+      <if test="reportId != null" >
+        #{reportId,jdbcType=VARCHAR},
+      </if>
+      <if test="reportTaskid != null" >
+        #{reportTaskid,jdbcType=VARCHAR},
+      </if>
+      <if test="reportType != null" >
+        #{reportType,jdbcType=VARCHAR},
+      </if>
+      <if test="qcName != null" >
+        #{qcName,jdbcType=VARCHAR},
+      </if>
+      <if test="qcList != null" >
+        #{qcList,jdbcType=VARCHAR},
+      </if>
+      <if test="isZq != null" >
+        #{isZq,jdbcType=CHAR},
+      </if>
+      <if test="relativeTable != null" >
+        #{relativeTable,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.heaven.model.CellQc" >
+    update CELL_QC
+    <set >
+      <if test="rowsnum != null" >
+        ROWSNUM = #{rowsnum,jdbcType=DECIMAL},
+      </if>
+      <if test="colsnum != null" >
+        COLSNUM = #{colsnum,jdbcType=DECIMAL},
+      </if>
+      <if test="text != null" >
+        TEXT = #{text,jdbcType=VARCHAR},
+      </if>
+      <if test="fixcaption != null" >
+        FIXCAPTION = #{fixcaption,jdbcType=VARCHAR},
+      </if>
+      <if test="expzz != null" >
+        EXPZZ = #{expzz,jdbcType=VARCHAR},
+      </if>
+      <if test="displayexp != null" >
+        DISPLAYEXP = #{displayexp,jdbcType=VARCHAR},
+      </if>
+      <if test="condition != null" >
+        CONDITION = #{condition,jdbcType=VARCHAR},
+      </if>
+      <if test="filterzz != null" >
+        FILTERZZ = #{filterzz,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null" >
+        URL = #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="detailname != null" >
+        DETAILNAME = #{detailname,jdbcType=VARCHAR},
+      </if>
+      <if test="reportName != null" >
+        REPORT_NAME = #{reportName,jdbcType=VARCHAR},
+      </if>
+      <if test="reportAlias != null" >
+        REPORT_ALIAS = #{reportAlias,jdbcType=VARCHAR},
+      </if>
+      <if test="reportCaption != null" >
+        REPORT_CAPTION = #{reportCaption,jdbcType=VARCHAR},
+      </if>
+      <if test="reportId != null" >
+        REPORT_ID = #{reportId,jdbcType=VARCHAR},
+      </if>
+      <if test="reportTaskid != null" >
+        REPORT_TASKID = #{reportTaskid,jdbcType=VARCHAR},
+      </if>
+      <if test="reportType != null" >
+        REPORT_TYPE = #{reportType,jdbcType=VARCHAR},
+      </if>
+      <if test="qcName != null" >
+        QC_NAME = #{qcName,jdbcType=VARCHAR},
+      </if>
+      <if test="qcList != null" >
+        QC_LIST = #{qcList,jdbcType=VARCHAR},
+      </if>
+      <if test="isZq != null" >
+        IS_ZQ = #{isZq,jdbcType=CHAR},
+      </if>
+      <if test="relativeTable != null" >
+        RELATIVE_TABLE = #{relativeTable,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=DECIMAL}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.heaven.model.CellQc" >
+    update CELL_QC
+    set ROWSNUM = #{rowsnum,jdbcType=DECIMAL},
+      COLSNUM = #{colsnum,jdbcType=DECIMAL},
+      TEXT = #{text,jdbcType=VARCHAR},
+      FIXCAPTION = #{fixcaption,jdbcType=VARCHAR},
+      EXPZZ = #{expzz,jdbcType=VARCHAR},
+      DISPLAYEXP = #{displayexp,jdbcType=VARCHAR},
+      CONDITION = #{condition,jdbcType=VARCHAR},
+      FILTERZZ = #{filterzz,jdbcType=VARCHAR},
+      URL = #{url,jdbcType=VARCHAR},
+      DETAILNAME = #{detailname,jdbcType=VARCHAR},
+      REPORT_NAME = #{reportName,jdbcType=VARCHAR},
+      REPORT_ALIAS = #{reportAlias,jdbcType=VARCHAR},
+      REPORT_CAPTION = #{reportCaption,jdbcType=VARCHAR},
+      REPORT_ID = #{reportId,jdbcType=VARCHAR},
+      REPORT_TASKID = #{reportTaskid,jdbcType=VARCHAR},
+      REPORT_TYPE = #{reportType,jdbcType=VARCHAR},
+      QC_NAME = #{qcName,jdbcType=VARCHAR},
+      QC_LIST = #{qcList,jdbcType=VARCHAR},
+      IS_ZQ = #{isZq,jdbcType=CHAR},
+      RELATIVE_TABLE = #{relativeTable,jdbcType=VARCHAR}
+    where ID = #{id,jdbcType=DECIMAL}
+  </update>
+</mapper>

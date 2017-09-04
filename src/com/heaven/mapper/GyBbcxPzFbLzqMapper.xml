@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.heaven.dao.GyBbcxPzFbLzqMapper" >
+  <resultMap id="BaseResultMap" type="com.heaven.model.GyBbcxPzFbLzq" >
+    <id column="ID" property="id" jdbcType="DECIMAL" />
+    <result column="LH" property="lh" jdbcType="DECIMAL" />
+    <result column="SJ_BYDM" property="sjBydm" jdbcType="VARCHAR" />
+    <result column="UUID" property="uuid" jdbcType="VARCHAR" />
+    <result column="ZQTJ" property="zqtj" jdbcType="VARCHAR" />
+    <result column="BYDM" property="bydm" jdbcType="VARCHAR" />
+    <result column="LRRY" property="lrry" jdbcType="VARCHAR" />
+    <result column="LRSJ" property="lrsj" jdbcType="TIMESTAMP" />
+    <result column="YXBZ" property="yxbz" jdbcType="CHAR" />
+    <result column="B_NAME" property="bName" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    ID, LH, SJ_BYDM, UUID, ZQTJ, BYDM, LRRY, LRSJ, YXBZ, B_NAME
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.math.BigDecimal" >
+    select 
+    <include refid="Base_Column_List" />
+    from GY_BBCX_PZ_FB_LZQ
+    where ID = #{id,jdbcType=DECIMAL}
+  </select>
+  
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select 
+    <include refid="Base_Column_List" />
+    from GY_BBCX_PZ_FB_LZQ
+  </select>
+  
+  
+  <delete id="deleteByPrimaryKey" parameterType="java.math.BigDecimal" >
+    delete from GY_BBCX_PZ_FB_LZQ
+    where ID = #{id,jdbcType=DECIMAL}
+  </delete>
+  <insert id="insert" parameterType="com.heaven.model.GyBbcxPzFbLzq" >
+    insert into GY_BBCX_PZ_FB_LZQ (ID, LH, SJ_BYDM, 
+      UUID, ZQTJ, BYDM, LRRY, 
+      LRSJ, YXBZ, B_NAME)
+    values (MYBATIS_COMMON_SEQUENCES.nextval, #{lh,jdbcType=DECIMAL}, #{sjBydm,jdbcType=VARCHAR}, 
+      #{uuid,jdbcType=VARCHAR}, #{zqtj,jdbcType=VARCHAR}, #{bydm,jdbcType=VARCHAR}, #{lrry,jdbcType=VARCHAR}, 
+      #{lrsj,jdbcType=TIMESTAMP}, #{yxbz,jdbcType=CHAR}, #{bName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.heaven.model.GyBbcxPzFbLzq" >
+    insert into GY_BBCX_PZ_FB_LZQ
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="lh != null" >
+        LH,
+      </if>
+      <if test="sjBydm != null" >
+        SJ_BYDM,
+      </if>
+      <if test="uuid != null" >
+        UUID,
+      </if>
+      <if test="zqtj != null" >
+        ZQTJ,
+      </if>
+      <if test="bydm != null" >
+        BYDM,
+      </if>
+      <if test="lrry != null" >
+        LRRY,
+      </if>
+      <if test="lrsj != null" >
+        LRSJ,
+      </if>
+      <if test="yxbz != null" >
+        YXBZ,
+      </if>
+      <if test="bName != null" >
+        B_NAME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        MYBATIS_COMMON_SEQUENCES.nextval,
+      </if>
+      <if test="lh != null" >
+        #{lh,jdbcType=DECIMAL},
+      </if>
+      <if test="sjBydm != null" >
+        #{sjBydm,jdbcType=VARCHAR},
+      </if>
+      <if test="uuid != null" >
+        #{uuid,jdbcType=VARCHAR},
+      </if>
+      <if test="zqtj != null" >
+        #{zqtj,jdbcType=VARCHAR},
+      </if>
+      <if test="bydm != null" >
+        #{bydm,jdbcType=VARCHAR},
+      </if>
+      <if test="lrry != null" >
+        #{lrry,jdbcType=VARCHAR},
+      </if>
+      <if test="lrsj != null" >
+        #{lrsj,jdbcType=TIMESTAMP},
+      </if>
+      <if test="yxbz != null" >
+        #{yxbz,jdbcType=CHAR},
+      </if>
+      <if test="bName != null" >
+        #{bName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.heaven.model.GyBbcxPzFbLzq" >
+    update GY_BBCX_PZ_FB_LZQ
+    <set >
+      <if test="lh != null" >
+        LH = #{lh,jdbcType=DECIMAL},
+      </if>
+      <if test="sjBydm != null" >
+        SJ_BYDM = #{sjBydm,jdbcType=VARCHAR},
+      </if>
+      <if test="uuid != null" >
+        UUID = #{uuid,jdbcType=VARCHAR},
+      </if>
+      <if test="zqtj != null" >
+        ZQTJ = #{zqtj,jdbcType=VARCHAR},
+      </if>
+      <if test="bydm != null" >
+        BYDM = #{bydm,jdbcType=VARCHAR},
+      </if>
+      <if test="lrry != null" >
+        LRRY = #{lrry,jdbcType=VARCHAR},
+      </if>
+      <if test="lrsj != null" >
+        LRSJ = #{lrsj,jdbcType=TIMESTAMP},
+      </if>
+      <if test="yxbz != null" >
+        YXBZ = #{yxbz,jdbcType=CHAR},
+      </if>
+      <if test="bName != null" >
+        B_NAME = #{bName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=DECIMAL}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.heaven.model.GyBbcxPzFbLzq" >
+    update GY_BBCX_PZ_FB_LZQ
+    set LH = #{lh,jdbcType=DECIMAL},
+      SJ_BYDM = #{sjBydm,jdbcType=VARCHAR},
+      UUID = #{uuid,jdbcType=VARCHAR},
+      ZQTJ = #{zqtj,jdbcType=VARCHAR},
+      BYDM = #{bydm,jdbcType=VARCHAR},
+      LRRY = #{lrry,jdbcType=VARCHAR},
+      LRSJ = #{lrsj,jdbcType=TIMESTAMP},
+      YXBZ = #{yxbz,jdbcType=CHAR},
+      B_NAME = #{bName,jdbcType=VARCHAR}
+    where ID = #{id,jdbcType=DECIMAL}
+  </update>
+</mapper>
