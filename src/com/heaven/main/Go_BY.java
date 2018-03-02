@@ -23,13 +23,13 @@ public class Go_BY {
 
 		
 
-		file = new File("D:/2017年会统报表/BY");
+		file = new File("D:/2018");
 		String [] files = file.list(); 
 		
 		for (int i = 0; i < files.length; i++) {
-			file = new File("D:/2017年会统报表/BY/"+files[i]);
+			file = new File("D:/2018/"+files[i]);
 			System.out.println("====================================");
-			System.out.println("D:/2017年会统报表/BY/"+files[i]);
+			System.out.println("D:/2018/"+files[i]);
 			
 			
 			

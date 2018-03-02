@@ -61,7 +61,7 @@ public class Get_Cell_R_C {
 				}
 
 				int tempEq = oneStr[i1].indexOf("=");
-
+				
 				twoStr = new String[2];
 				twoStr[0] = oneStr[i1].substring(0, tempEq).trim();
 				twoStr[1] = oneStr[i1].substring(tempEq + 1).trim();

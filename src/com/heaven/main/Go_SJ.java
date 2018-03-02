@@ -24,11 +24,11 @@ public class Go_SJ {
 		file = new File("D:/2017年会统报表/SJ-02.npf");
 		*/
 		
-		file = new File("D:/2017年会统报表");
+		file = new File("D:/2018");
 		String [] files = file.list();
 		for (int i = 0; i < files.length; i++) {
 			if (files[i].endsWith(".npf")) {
-				file = new File("D:/2017年会统报表/"+files[i]);
+				file = new File("D:/2018/"+files[i]);
 				
 				String text = txt2String(file);
 				
