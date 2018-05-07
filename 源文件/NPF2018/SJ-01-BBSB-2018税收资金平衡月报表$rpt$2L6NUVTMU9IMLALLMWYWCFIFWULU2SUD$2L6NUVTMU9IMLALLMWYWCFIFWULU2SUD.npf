@@ -1,0 +1,2553 @@
+<head>
+alias=SJ-01-BBSB-2018:税收资金平衡月报表
+caption=SJ-01-BBSB-2018:税收资金平衡月报表
+grp=/2018年会统报表
+hash=1624f832675f6dfd07789ecc30935068
+ID={118718B4-3B72-4490-929C-AA72F78729E5}
+name=SJ-01-BBSB-2018
+taskid=YSNM7NQDYIRKM7DS6O3YCXNT7KSVNKEU
+type=RPType_FormatCal
+version=3.0
+</head>
+
+<style>
+fn=宋体;sz=11;stl=;cl=#000000;lo=46;bkcl=#80FFFF
+fn=楷体_GB2312;sz=22;stl=;cl=#000000;lo=47;bkcl=#FFFFFF
+fn=宋体;sz=11;stl=;cl=#000000;lo=45;bkcl=#F0F0F0
+fn=宋体;sz=11;stl=;cl=#000000;lo=45;bkcl=#FFFFFF
+fn=宋体;sz=11;stl=;cl=#000000;lo=46;bkcl=#FFFFFF
+fn=宋体;sz=11;stl=;cl=#000000;lo=47;bkcl=#F0F0F0
+fn=宋体;sz=11;stl=;cl=#000000;lo=47;bkcl=#FFFFFF
+fn=宋体;sz=11;stl=;cl=#000000;lo=79;bkcl=#F0F0F0
+fn=宋体;sz=11;stl=B;cl=#000000;lo=47;bkcl=#F0F0F0
+fn=宋体;sz=9;stl=;cl=#000000;lo=47;bkcl=#FFFFFF
+</style>
+
+<border>
+cl=#000000;stl=0;w=1
+cl=#000000;stl=0;w=2
+cl=#FFFFFF;stl=5;w=0
+</border>
+
+<option>
+bbqoption=bbq()=@bbq
+bbqoption_caption=bbq()=@bbq
+Color=#FFFFFF
+FixRowCol=x=0;y=0
+</option>
+
+<body rowCount=29 colCount=7>
+<layout left=0 top=68>
+colwidths=28;164;100;100;163;100;100;
+rowheights=22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;22;
+</layout>
+<row index=14>
+exp=1-1
+height=22
+</row>
+<row index=15>
+exp=1-1
+height=22
+</row>
+<row index=16>
+exp=1-1
+height=22
+</row>
+<row index=17>
+exp=1-1
+height=22
+</row>
+<row index=18>
+exp=1-1
+height=22
+</row>
+<row index=19>
+exp=1-1
+height=22
+</row>
+<row index=20>
+exp=1-1
+height=22
+</row>
+<row index=21>
+exp=1-1
+height=22
+</row>
+<row index=22>
+exp=1-1
+height=22
+</row>
+<row index=23>
+exp=1-1
+height=22
+</row>
+<row index=24>
+exp=1-1
+height=22
+</row>
+<row index=25>
+exp=1-1
+height=22
+</row>
+<row index=26>
+exp=1-1
+height=22
+</row>
+<row index=27>
+exp=1-1
+height=22
+</row>
+<row index=28>
+exp=1-1
+height=22
+</row>
+<cl r=0 c=0 h=2 stl=7 b=1,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=序号
+</cl>
+<cl r=0 c=1 w=3 stl=5 b=0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=资金占用
+</cl>
+<cl r=0 c=4 w=3 stl=5 b=0,1,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=资金来源
+</cl>
+<cl r=1 c=1 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=科\u20\u20\u20目
+</cl>
+<cl r=1 c=2 stl=5 t=C l=>
+autoGetPre=true
+bbqoption=bbq()=left(@bbq,4)^'00'
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=1 c=3 stl=5 t=C l=>
+autoGetPre=true
+bbqoption=bbq()=@bbq
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=1 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=科\u20\u20\u20目
+</cl>
+<cl r=1 c=5 stl=5 t=C l=>
+autoGetPre=true
+bbqoption=bbq()=left(@bbq,4)^'00'
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=1 c=6 stl=5 t=C l= b=0,0,1>
+autoGetPre=true
+bbqoption=bbq()=@bbq
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=2 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=1
+</cl>
+<cl r=2 c=1 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=合\u20计
+</cl>
+<cl r=2 c=2 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+expzz=C18
+</cl>
+<cl r=2 c=3 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+expzz=D18
+</cl>
+<cl r=2 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=合\u20计
+</cl>
+<cl r=2 c=5 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJLYNC
+DetailName=合计资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=16
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+expzz=F18
+</cl>
+<cl r=2 c=6 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJLYQM
+DetailName=合计资金来源期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=17
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+expzz=G18
+</cl>
+<cl r=3 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=2
+</cl>
+<cl r=3 c=1 stl=2 t=C l=>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=3 c=2 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_201'],['分月显示',_z,'FYXS-DZ-201','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@zsxm=<#='101%'#>;@hsdw=<#=@rootid#>']])"")"
+expzz=C19
+</cl>
+<cl r=3 c=3 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_201','@bbq=<#=@bbq#>'],['纳税人流水清册', _z, 'T_QC_201','@bbq=<#=@bbq#>'],['分月显示', _z, 'FYXS-DZ-201','@bbq=<#=@bbq#>;@nc=<#=0#>;@zsxm=<#='101%'#>;@hsdw=<#=@rootid#>']])"")"
+expzz=D19
+</cl>
+<cl r=3 c=4 stl=2 t=C l=>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=3 c=5 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJLYNC
+DetailName=合计资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=16
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_101'],['分月显示',_z,'FYXS-YZ-101','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@zsxm=<#='101%'#>;@hsdw=<#=@rootid#>']])"")"
+expzz=F19
+</cl>
+<cl r=3 c=6 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJLYQM
+DetailName=合计资金来源期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=17
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_101','@bbq=<#=@bbq#>'],['纳税人流水清册', _z, 'T_QC_101','@bbq=<#=@bbq#>'],['分月显示', _z, 'FYXS-YZ-101','@bbq=<#=@bbq#>;@nc=<#=0#>;@zsxm=<#='101%'#>;@hsdw=<#=@rootid#>']])"")"
+expzz=G19
+</cl>
+<cl r=4 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=3
+</cl>
+<cl r=4 c=1 stl=2 t=C l=>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=4 c=2 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_201'],['分月显示',_z,'FYXS-DZ-201','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@zsxm=<#='101%'#>;@hsdw=<#=@rootid#>']])"")"
+expzz=C20
+</cl>
+<cl r=4 c=3 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_201','@bbq=<#=@bbq#>'],['纳税人流水清册', _z, 'T_QC_201','@bbq=<#=@bbq#>'],['分月显示', _z, 'FYXS-DZ-201','@bbq=<#=@bbq#>;@nc=<#=0#>;@zsxm=<#='101%'#>;@hsdw=<#=@rootid#>']])"")"
+expzz=D20
+</cl>
+<cl r=4 c=4 stl=2 t=C l=>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=4 c=5 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJLYNC
+DetailName=合计资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=16
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_101'],['分月显示',_z,'FYXS-YZ-101','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@zsxm=<#='101%'#>;@hsdw=<#=@rootid#>']])"")"
+expzz=F20
+</cl>
+<cl r=4 c=6 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=HJZJLYQM
+DetailName=合计资金来源期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=17
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_101','@bbq=<#=@bbq#>'],['纳税人流水清册', _z, 'T_QC_101','@bbq=<#=@bbq#>'],['分月显示', _z, 'FYXS-YZ-101','@bbq=<#=@bbq#>;@nc=<#=0#>;@zsxm=<#='101%'#>;@hsdw=<#=@rootid#>']])"")"
+expzz=G20
+</cl>
+<cl r=5 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=4
+</cl>
+<cl r=5 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u203.减免税金
+</cl>
+<cl r=5 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=JMZJZYNC
+DetailName=减免资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=31
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if( self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_202','','self'],['分月显示',_z,'FYXS-JM-202','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=C21
+</cl>
+<cl r=5 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=JMZJZYNC
+DetailName=减免资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=31
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if( self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_202','@bbq=<#=@bbq#>','self'],['纳税人流水清册', _z, 'T_QC_202','@bbq=<#=@bbq#>','self'],['分月显示', _z, 'FYXS-JM-202','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=D21
+</cl>
+<cl r=5 c=4 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u203.多缴税金
+</cl>
+<cl r=5 c=5 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=DJZJLYNC
+DetailName=多缴资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=34
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_102','','self'],['分月显示',_z,'FYXS-DJ-102','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=F21
+</cl>
+<cl r=5 c=6 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=DJZJLYNC
+DetailName=多缴资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=34
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if( self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_102','@bbq=<#=@bbq#>','self'],['纳税人流水清册', _z, 'T_QC_102','@bbq=<#=@bbq#>','self'],['分月显示', _z, 'FYXS-DJ-102','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=G21
+</cl>
+<cl r=6 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=5
+</cl>
+<cl r=6 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u204.待解税金
+</cl>
+<cl r=6 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=DJZJZYNC
+DetailName=待解资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=37
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if( self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_203','','self'],['分月显示',_z,'FYXS-DJ-203','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=C22
+</cl>
+<cl r=6 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=DJZJZYQM
+DetailName=待解资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=38
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if( self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_203','@bbq=<#=@bbq#>','self'],['纳税人流水清册', _z, 'T_QC_203','@bbq=<#=@bbq#>','self'],['分月显示', _z, 'FYXS-DJ-203','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=D22
+</cl>
+<cl r=6 c=4 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u204.暂收款
+</cl>
+<cl r=6 c=5 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=DJZJLYNC
+DetailName=多缴资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=34
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_103','','self'],['分月显示',_z,'FYXS-ZSK-103','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=F22
+</cl>
+<cl r=6 c=6 t=N l=50.2 b=0,0,0>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=DJZJLYNC
+DetailName=多缴资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=34
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_103','@bbq=<#=@bbq#>','self'],['纳税人流水清册', _z, 'T_QC_103','@bbq=<#=@bbq#>','self'],['分月显示', _z, 'FYXS-ZSK-103','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=G22
+</cl>
+<cl r=7 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=6
+</cl>
+<cl r=7 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u205.在途税金
+</cl>
+<cl r=7 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=ZTZJZYNC
+DetailName=在途资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=43
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_204','','self'],['分月显示',_z,'FYXS-ZT-204','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=C23
+</cl>
+<cl r=7 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=ZTZJZYQM
+DetailName=在途资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=44
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_204','@bbq=<#=@bbq#>','self'],['纳税人流水清册', _z, 'T_QC_204','@bbq=<#=@bbq#>','self'],['分月显示', _z, 'FYXS-ZT-204','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=D23
+</cl>
+<cl r=7 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=7 c=5 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=7 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=8 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=7
+</cl>
+<cl r=8 c=1 stl=2 t=C l=>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=8 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=ZTZJZYNC
+DetailName=在途资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=43
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_205'],['分月显示',_z,'FYXS-RK-205','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>']])"")"
+expzz=C24
+</cl>
+<cl r=8 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=ZTZJZYQM
+DetailName=在途资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=44
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_205','@bbq=<#=@bbq#>'],['纳税人流水清册', _z, 'T_QC_205','@bbq=<#=@bbq#>'],['分月显示', _z, 'FYXS-RK-205','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>']])"")"
+expzz=D24
+</cl>
+<cl r=8 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=8 c=5 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=8 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=9 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=8
+</cl>
+<cl r=9 c=1 stl=2 t=C l=>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=9 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=ZTZJZYNC
+DetailName=在途资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=43
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_205'],['分月显示',_z,'FYXS-RK-205','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>']])"")"
+expzz=C25
+</cl>
+<cl r=9 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=ZTZJZYQM
+DetailName=在途资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=44
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self()=0 or self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_205','@bbq=<#=@bbq#>'],['纳税人流水清册', _z, 'T_QC_205','@bbq=<#=@bbq#>'],['分月显示', _z, 'FYXS-RK-205','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>']])"")"
+expzz=D25
+</cl>
+<cl r=9 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=9 c=5 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=9 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=10 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=9
+</cl>
+<cl r=10 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u208.提退税金
+</cl>
+<cl r=10 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=TTZJZYNC
+DetailName=提退资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=61
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_206','','self'],['分月显示',_z,'FYXS-TH-206','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=C26
+</cl>
+<cl r=10 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=TTZJZYNC
+DetailName=提退资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=61
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_206','@bbq=<#=@bbq#>','self'],['纳税人流水清册', _z, 'T_QC_206','@bbq=<#=@bbq#>','self'],['分月显示', _z, 'FYXS-TH-206','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=D26
+</cl>
+<cl r=10 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=10 c=5 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=10 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=11 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=10
+</cl>
+<cl r=11 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u209.待处理损失税金\u20
+</cl>
+<cl r=11 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=TTZJZYNC
+DetailName=提退资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=61
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_207','','self'],['分月显示',_z,'FYXS-DCLSSSR-207','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=C27
+</cl>
+<cl r=11 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=TTZJZYNC
+DetailName=提退资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=61
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_207','@bbq=<#=@bbq#>','self'],['纳税人流水清册', _z, 'T_QC_207','@bbq=<#=@bbq#>','self'],['分月显示', _z, 'FYXS-DCLSSSR-207','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=D27
+</cl>
+<cl r=11 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=11 c=5 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=11 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=12 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=11
+</cl>
+<cl r=12 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u2010.损失税金核销
+</cl>
+<cl r=12 c=2 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=SSHXZJZYNC
+DetailName=损失核销资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=73
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_208','','self'],['分月显示',_z,'FYXS-SSSRHX-208','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=C28
+</cl>
+<cl r=12 c=3 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=SSHXZJZYQM
+DetailName=损失核销资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=74
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if( self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_208','@bbq=<#=@bbq#>','self'],['纳税人流水清册', _z, 'T_QC_208','@bbq=<#=@bbq#>','self'],['分月显示', _z, 'FYXS-SSSRHX-208','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=D28
+</cl>
+<cl r=12 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=12 c=5 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=12 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=13 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=12
+</cl>
+<cl r=13 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u2011.保管款
+</cl>
+<cl r=13 c=2 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=BGKZJZYNC
+DetailName=保管款资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=79
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_209','','self'],['分月显示',_z,'FYXS-BGK-209','@bbq=<#=left(@bbq,4)^'00'#>;@nc=<#=1#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=C29
+</cl>
+<cl r=13 c=3 t=N l=50.2>
+autoGetPre=true
+bkColor=16777088
+DBFieldName=BGKZJZYQM
+DetailName=保管款资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=80
+IsOrderCell=false
+Pc=16777215
+swoption=auto
+url="if(self() is null,null,""javascript:_zmenu([['纳税人余额清册', _z, 'QC_NSR_209','@bbq=<#=@bbq#>','self'],['纳税人流水清册', _z, 'T_QC_209','@bbq=<#=@bbq#>','self'],['分月显示', _z, 'FYXS-BGK-209','@bbq=<#=@bbq#>;@nc=<#=0#>;@hsdw=<#=@rootid#>','self']])"")"
+expzz=D29
+</cl>
+<cl r=13 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=13 c=5 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=13 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=14 c=0 stl=9 t=N l=50.2 b=1,0>
+</cl>
+<cl r=14 c=1 stl=9 t=N l=50.2>
+</cl>
+<cl r=14 c=2 stl=9 t=N l=50.2>
+</cl>
+<cl r=14 c=3 stl=9 t=N l=50.2>
+</cl>
+<cl r=14 c=4 stl=9 t=N l=50.2>
+</cl>
+<cl r=14 c=5 stl=9 t=N l=50.2>
+</cl>
+<cl r=14 c=6 stl=9 t=N l=50.2 b=0,0,1>
+</cl>
+<cl r=15 c=0 h=2 stl=7 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=序号
+</cl>
+<cl r=15 c=1 w=3 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=资金占用
+</cl>
+<cl r=15 c=4 w=3 stl=5 b=0,0,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=资金来源
+</cl>
+<cl r=16 c=1 stl=5>
+autoGetPre=true
+bbqoption=bbq()=@bbq
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=科\u20\u20\u20目
+</cl>
+<cl r=16 c=2 stl=5>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=年初余额
+</cl>
+<cl r=16 c=3 stl=5>
+autoGetPre=true
+bbqoption=bbq()=@bbq
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=期末余额
+</cl>
+<cl r=16 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=科\u20\u20\u20目
+</cl>
+<cl r=16 c=5 stl=5>
+autoGetPre=true
+bbqoption=bbq()=left(@bbq,4)^'00'
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=年初余额
+</cl>
+<cl r=16 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bbqoption=bbq()=@bbq
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=期末余额
+</cl>
+<cl r=17 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=1
+</cl>
+<cl r=17 c=1 stl=5 t=C l=>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=17 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+pen=cl=#000000;stl=0;w=1;spstl=0
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A18),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=17 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A18),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=17 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=合\u20计
+</cl>
+<cl r=17 c=5 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYNC
+DetailName=合计资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=16
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A18),BBSB_SJ_01_2018.ZJLY_NCYE,0)"
+</cl>
+<cl r=17 c=6 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYQM
+DetailName=合计资金来源期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=17
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A18),BBSB_SJ_01_2018.ZJLY_NMYE,0)"
+</cl>
+<cl r=18 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=2
+</cl>
+<cl r=18 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u201.待征税收
+</cl>
+<cl r=18 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A19),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=18 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A19),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=18 c=4 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u201.应征税收
+</cl>
+<cl r=18 c=5 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYNC
+DetailName=合计资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=16
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A19),BBSB_SJ_01_2018.ZJLY_NCYE,0)"
+</cl>
+<cl r=18 c=6 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYQM
+DetailName=合计资金来源期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=17
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A19),BBSB_SJ_01_2018.ZJLY_NMYE,0)"
+</cl>
+<cl r=19 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=3
+</cl>
+<cl r=19 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u202.待征其他收入
+</cl>
+<cl r=19 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A20),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=19 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A20),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=19 c=4 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u202.应征其他收入
+</cl>
+<cl r=19 c=5 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYNC
+DetailName=合计资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=16
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A20),BBSB_SJ_01_2018.ZJLY_NCYE,0)"
+</cl>
+<cl r=19 c=6 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYQM
+DetailName=合计资金来源期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=17
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A20),BBSB_SJ_01_2018.ZJLY_NMYE,0)"
+</cl>
+<cl r=20 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=4
+</cl>
+<cl r=20 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u203.减免税金
+</cl>
+<cl r=20 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A21),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=20 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A21),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=20 c=4 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u203.多缴税金
+</cl>
+<cl r=20 c=5 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYNC
+DetailName=合计资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=16
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A21),BBSB_SJ_01_2018.ZJLY_NCYE,0)"
+</cl>
+<cl r=20 c=6 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYQM
+DetailName=合计资金来源期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=17
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A21),BBSB_SJ_01_2018.ZJLY_NMYE,0)"
+</cl>
+<cl r=21 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=5
+</cl>
+<cl r=21 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u204.待解税金
+</cl>
+<cl r=21 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A22),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=21 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A22),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=21 c=4 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u204.暂收款
+</cl>
+<cl r=21 c=5 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYNC
+DetailName=合计资金来源年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=16
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A22),BBSB_SJ_01_2018.ZJLY_NCYE,0)"
+</cl>
+<cl r=21 c=6 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJLYQM
+DetailName=合计资金来源期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=17
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A22),BBSB_SJ_01_2018.ZJLY_NMYE,0)"
+</cl>
+<cl r=22 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=6
+</cl>
+<cl r=22 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u205.在途税金
+</cl>
+<cl r=22 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A23),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=22 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A23),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=22 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=22 c=5 stl=5>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=22 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=23 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=7
+</cl>
+<cl r=23 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u206.入库税收
+</cl>
+<cl r=23 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A24),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=23 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A24),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=23 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=23 c=5 stl=5>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=23 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=24 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=8
+</cl>
+<cl r=24 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u207.入库其他收入
+</cl>
+<cl r=24 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A25),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=24 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A25),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=24 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=24 c=5 stl=5>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=24 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=25 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=9
+</cl>
+<cl r=25 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u208.提退税金
+</cl>
+<cl r=25 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A26),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=25 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A26),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=25 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=25 c=5 stl=5>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=25 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=26 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=10
+</cl>
+<cl r=26 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u209.待处理损失税金\u20
+</cl>
+<cl r=26 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A27),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=26 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A27),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=26 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=26 c=5 stl=5>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=26 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=27 c=0 stl=8 b=1,0>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=11
+</cl>
+<cl r=27 c=1 stl=2>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u2010.损失税金核销
+</cl>
+<cl r=27 c=2 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A28),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=27 c=3 t=N l=50.2>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A28),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=27 c=4 stl=5>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=27 c=5 stl=5>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=27 c=6 stl=5 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=28 c=0 stl=8 b=1,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=12
+</cl>
+<cl r=28 c=1 stl=2 b=0,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=\u20\u20\u2011.保管款
+</cl>
+<cl r=28 c=2 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYNC
+DetailName=合计资金占用年初
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=13
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A29),BBSB_SJ_01_2018.ZJZY_NCYE,0)"
+</cl>
+<cl r=28 c=3 t=N l=50.2 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=16777088
+DBFieldName=HJZJZYQM
+DetailName=合计资金占用期末
+displayexp=if(@set_sw=10000,format('%,.0f',round(self.value/10000,0)),self.txt)
+groupnum=true
+id=14
+IsOrderCell=false
+iszb=false
+Pc=16777215
+swoption=auto
+expzz="if( BBSB_SJ_01_2018.HH=trim(A29),BBSB_SJ_01_2018.ZJZY_NMYE,0)"
+</cl>
+<cl r=28 c=4 stl=5 b=0,0,1>
+autoGetPre=true
+bkColor=-2147483633
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=28 c=5 stl=5 b=0,0,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<cl r=28 c=6 stl=5 b=0,0,1,1>
+autoGetPre=true
+bbqoption=inherited
+bkColor=-2147483633
+iszb=false
+LinkedPlanar_NeedHj=true
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+linkedrpt.needHj=true
+linkedrpt.printRowCount=0
+linkedrpt.sortByKeyCell=false
+Pc=16777215
+</cl>
+<hd nm=HH7 x=295 y=46 w=165 h=19 stl=6>
+autoGetPre=true
+bkColor=16777215
+DisplayCondition=zzexp=;hzexp=
+HoriAlignOption=alignCenter
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text="报表期：<#=@bbq.txt#>"
+autosize=true
+</hd>
+<hd nm=HH8 x=582 y=48 w=173 h=19 stl=4>
+autoGetPre=true
+bkColor=16777215
+DisplayCondition=zzexp=;hzexp=
+HoriAlignOption=alignright
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text="单位：<#=@set_sw.txt#>"
+autosize=true
+</hd>
+<hd nm=HH10 x=679 y=32 w=76 h=19 stl=4>
+autoGetPre=true
+bkColor=16777215
+DisplayCondition=zzexp=;hzexp=
+HoriAlignOption=alignright
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=表号：会01
+autosize=true
+</hd>
+<hd nm=HH11 x=197 y=0 w=361 h=37 stl=1>
+autoGetPre=true
+bkColor=16777215
+DisplayCondition=zzexp=;hzexp=
+HoriAlignOption=alignCenter
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text=SJ-01:税收资金平衡月报表
+autosize=true
+</hd>
+<hd nm=HHH11 x=0 y=46 w=320 h=19 stl=3>
+autoGetPre=true
+bkColor=16777215
+DisplayCondition=zzexp=;hzexp=
+HoriAlignOption=alignleft
+LinkedPlanar_NeedHj=false
+LinkedPlanar_PrintRowcount=0
+LinkedPlanar_SortByKeyCell=false
+Pc=16777215
+Text="编报机关：<#=diminf('核算单位',@rootid)#>"
+autosize=true
+</hd>
+</body>
+
+<print>
+AlwaysHead=true
+cellFontSizeRate=1
+ColorPrint=false
+HCenter=true
+headerFontSizeRate=1
+Margin=left=10;top=15;right=10;bottom=15
+MultiPage=false
+MultiPage.FixColCount=0
+MultiPage.FixRowCount=0
+MultiPage.FloatColCount=8
+MultiPage.FloatRowCount=30
+needPageNum=true
+Orient=poLandscape
+PageSizeHeight=2970
+PageSizeWidth=2100
+PageType=9
+PreViewRate=1
+PrinterName=EpsonLX-800
+PrintMode=fillscreen
+PrintRate=1
+PrintZero=false
+VCenter=true
+zoomCellFontSizeByViewRate=true
+zoomHeaderFontSizeByViewRate=true
+</print>
+<floatfxqs>
+<floatfxq rect=0.0.7.29>
+<floatcell>
+<option>
+cell=C2
+float=horz
+floatrange=0.0.-1.12
+floattype=fix
+fixcaption=年初余额
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=D2
+float=horz
+floatrange=0.0.-1.12
+floattype=fix
+fixcaption=期末余额
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=G2
+float=horz
+floatrange=0.0.-1.5
+floattype=fix
+fixcaption=期末余额
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=B18
+float=vert
+floatrange=0.0.0.11
+floattype=fix
+fixcaption=合 计
+condition="BBSB_SJ_01_2018.SWJG_DM=RIGHT(@rootid,11)"
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=B4
+float=vert
+floatrange=0.0.2.-1
+floattype=fix
+fixcaption=   1.待征税收
+condition=BBSB_TMP.ZSXM_DM like '101%'
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=B5
+float=vert
+floatrange=0.0.2.-1
+floattype=fix
+fixcaption=   2.待征其他收入
+condition=BBSB_TMP.ZSXM_DM not like '101%'
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=B9
+float=vert
+floatrange=0.0.2.-1
+floattype=fix
+fixcaption=   6.入库税收
+condition=BBSB_TMP.ZSXM_DM like '101%'
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=B10
+float=vert
+floatrange=0.0.2.-1
+floattype=fix
+fixcaption=   7.入库其他收入
+condition=BBSB_TMP.ZSXM_DM not like '101%'
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=F2
+float=horz
+floatrange=0.0.-1.5
+floattype=fix
+fixcaption=年初余额
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=E5
+float=vert
+floatrange=0.0.0.-1
+floattype=fix
+fixcaption=  2.应征其他收入
+condition=BBSB_TMP.ZSXM_DM not like '101%'
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+<floatcell>
+<option>
+cell=E4
+float=vert
+floatrange=0.0.0.-1
+floattype=fix
+fixcaption=  1.应征税收
+condition=BBSB_TMP.ZSXM_DM  like '101%'
+</option>
+<customgroup grouptype=0>
+</customgroup>
+</floatcell>
+</floatfxq>
+</floatfxqs>
+
+<customfuncs>
+<?xml version="1.0" encoding="UTF-8"?><paramspanel reffactables="BBSB_TMP" src=""><items><item type="yearmonth" name="@bbq" caption="年月" desc="" defvalue="" width="200" disabled="false" readonly="false" visible="true" today="false" validator="" marginleft="" newline="false"/><item type="bbhlist" name="@rootid" caption="税务机关" desc="" defvalue="" width="200" disabled="false" readonly="false" autofilter="false" visible="true" multi="false" displaystyle="2" itemroots="" includeroot="false" itemfilter="" itemsort="" validator="" marginleft="" newline="false"/><item type="combobox" name="@set_sw" caption="舍位" desc="" defvalue="1" width="200" disabled="false" visible="true" readonly="false" multi="false" validator="" marginleft="" newline="false"><values><![CDATA[角分:1;万元:10000]]></values></item><item type="button" name="btCalc" caption="计算" disabled="false" visible="true" command="_onCalc()" onclick="" newline="false"/><item type="button" name="btExport" caption="导出" disabled="false" visible="true" command="_onExport()" onclick="" newline="false"/><item type="button" name="btPrint" caption="打印" disabled="false" visible="true" command="_onPrint()" onclick="" newline="false"/></items></paramspanel>
+</customfuncs>
+<defthemeset>
+bkclcell=#FFFFFF
+bkclselectrowcol=#85A9E0
+blockcellcolor=#0000FF
+bordercell=cl=#000000;stl=0;w=1;spstl=0
+bordercellNullDisplay=cl=#FF0000;stl=0;w=1;spstl=0
+bordercharthead=cl=0;stl=0;w=1;spstl=0
+borderfloatrangecolor=#85A9E0
+borderfxq=cl=#85A9E0;stl=0;w=3;spstl=0
+ctrlcellcolor=#0000FF
+defcellheight=24
+defcellwidth=72
+draginglinecolor=#000000
+focuscellcolor=#0000FF
+font=fn=宋体;sz=8;cl=0;stl=
+fontcvfieldname=fn=宋体;sz=8;cl=#0000FF;stl=
+rptbkcell=#FFFFFF
+</defthemeset>
+
+
+
